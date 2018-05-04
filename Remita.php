@@ -19,7 +19,7 @@
 
 	class Remita{
 
-
+		//These url are for the live server and to be used after all testing has been done and you are ready to go live
 		private $SPLIT_GATEWAYURL = "https://login.remita.net/remita/ecomm/split/init.reg"; //split payment url
 
 		private $GATEWAYRRRPAYMENTURL = "https://login.remita.net/remita/ecomm/finalize.reg";//split payment gateway url
@@ -31,7 +31,7 @@
 		private $GATEWAYURL = "http://www.remitademo.net/remita/ecomm/v2/init.reg";//normal payment url
 
 
-		/*
+		/* This is the demo url.......to be used for demo purposes only
 		private $SPLIT_GATEWAYURL = "http://www.remitademo.net/remita/ecomm/v2/init.reg"; //split payment url
 
 		private $GATEWAYRRRPAYMENTURL = "http://www.remitademo.net/remita/ecomm/finalize.reg";//split payment gateway url
